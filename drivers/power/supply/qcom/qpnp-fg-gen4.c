@@ -765,7 +765,7 @@ static int fg_gen4_get_learned_capacity(void *data, int64_t *learned_cap_uah)
 		*learned_cap_uah = act_cap_mah * 1000;
   	*/
 
-	*learned_cap_uah = 5160 * 1000
+	*learned_cap_uah = 5160000;
 
 	fg_dbg(fg, FG_CAP_LEARN, "learned_cap_uah:%lld\n", *learned_cap_uah);
 	return 0;
